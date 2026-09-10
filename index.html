@@ -1431,18 +1431,12 @@
     }
 
     .quote-accordion details {
-        background: #ffffff;
-        border: 1px solid #ddd;
+        background: #f8f8f8;
+        border: 1px solid #d6d6d6;
         border-radius: 10px;
         margin-bottom: 16px;
         overflow: hidden;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-        transition: all 0.3s ease;
-    }
-
-    .quote-accordion details:hover {
-        border-color: #aaa;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     }
 
     .quote-accordion summary {
@@ -1454,14 +1448,15 @@
         font-weight: 600;
         font-size: 17px;
         list-style: none;
-        background: #fafafa;
+        background: #eeeeee;
+        color: #222222 !important;
+    }
+
+    .quote-accordion summary span {
+        color: #222222 !important;
     }
 
     .quote-accordion summary::-webkit-details-marker {
-        display: none;
-    }
-
-    .quote-accordion summary::marker {
         display: none;
     }
 
@@ -1471,37 +1466,36 @@
         justify-content: center;
         width: 30px;
         height: 30px;
-        border: 1px solid #bbb;
+        border: 1px solid #888;
         border-radius: 50%;
         font-size: 21px;
         font-weight: 400;
+        color: #222222 !important;
+        background: #ffffff;
         flex-shrink: 0;
-        transition: transform 0.3s ease;
-    }
-
-    .quote-accordion details[open] .accordion-icon {
-        transform: rotate(45deg);
     }
 
     .quote-accordion details[open] summary {
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid #d6d6d6;
     }
 
     .quote-content {
         padding: 24px;
         background: #ffffff;
+        color: #222222 !important;
     }
 
     .quote-content p {
         margin: 0 0 18px;
         line-height: 1.8;
         font-size: 16px;
+        color: #222222 !important;
     }
 
     .quote-content em {
         display: block;
         font-size: 14px;
-        opacity: 0.75;
+        color: #555555 !important;
         text-align: right;
     }
 
@@ -1656,7 +1650,6 @@
     </div>
 
 </section>
-
 <!-- =========================
      CONTRIBUTION NEEDS
 ========================= -->
