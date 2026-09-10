@@ -1423,107 +1423,240 @@
 <!-- =========================
      CALLED FOR SERVICE
 ========================= -->
-
-.quote-accordion {
-    max-width: 900px;
-    margin: 40px auto 0;
-    text-align: left;
-}
-
-.quote-accordion details {
-    background: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    margin-bottom: 16px;
-    overflow: hidden;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
-}
-
-.quote-accordion details:hover {
-    border-color: #aaa;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-}
-
-.quote-accordion summary {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 24px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 17px;
-    list-style: none;
-    background: #fafafa;
-}
-
-.quote-accordion summary::-webkit-details-marker {
-    display: none;
-}
-
-.quote-accordion summary::marker {
-    display: none;
-}
-
-.accordion-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #bbb;
-    border-radius: 50%;
-    font-size: 21px;
-    font-weight: 400;
-    flex-shrink: 0;
-    transition: transform 0.3s ease;
-}
-
-.quote-accordion details[open] .accordion-icon {
-    transform: rotate(45deg);
-}
-
-.quote-accordion details[open] summary {
-    border-bottom: 1px solid #ddd;
-}
-
-.quote-content {
-    padding: 24px;
-    background: #ffffff;
-}
-
-.quote-content p {
-    margin: 0 0 18px;
-    line-height: 1.8;
-    font-size: 16px;
-}
-
-.quote-content em {
-    display: block;
-    font-size: 14px;
-    opacity: 0.75;
-    text-align: right;
-}
-
-@media (max-width: 600px) {
+<style>
     .quote-accordion {
-        margin-top: 30px;
+        max-width: 900px;
+        margin: 40px auto 0;
+        text-align: left;
+    }
+
+    .quote-accordion details {
+        background: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        overflow: hidden;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+    }
+
+    .quote-accordion details:hover {
+        border-color: #aaa;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     }
 
     .quote-accordion summary {
-        padding: 17px 18px;
-        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 24px;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 17px;
+        list-style: none;
+        background: #fafafa;
+    }
+
+    .quote-accordion summary::-webkit-details-marker {
+        display: none;
+    }
+
+    .quote-accordion summary::marker {
+        display: none;
+    }
+
+    .accordion-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #bbb;
+        border-radius: 50%;
+        font-size: 21px;
+        font-weight: 400;
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+
+    .quote-accordion details[open] .accordion-icon {
+        transform: rotate(45deg);
+    }
+
+    .quote-accordion details[open] summary {
+        border-bottom: 1px solid #ddd;
     }
 
     .quote-content {
-        padding: 18px;
+        padding: 24px;
+        background: #ffffff;
     }
 
     .quote-content p {
-        font-size: 15px;
-        line-height: 1.7;
+        margin: 0 0 18px;
+        line-height: 1.8;
+        font-size: 16px;
     }
-}
+
+    .quote-content em {
+        display: block;
+        font-size: 14px;
+        opacity: 0.75;
+        text-align: right;
+    }
+
+    @media (max-width: 600px) {
+        .quote-accordion {
+            margin-top: 30px;
+        }
+
+        .quote-accordion summary {
+            padding: 17px 18px;
+            font-size: 15px;
+        }
+
+        .quote-content {
+            padding: 18px;
+        }
+
+        .quote-content p {
+            font-size: 15px;
+            line-height: 1.7;
+        }
+    }
+</style>
+
+
+<section class="section called-section">
+
+    <div class="container">
+
+        <div class="section-title reveal">
+
+            <h2>
+                We Go Where People Are
+            </h2>
+
+            <div class="quote-accordion">
+
+                <details>
+                    <summary>
+                        <span>Coming Close to the People</span>
+                        <span class="accordion-icon">+</span>
+                    </summary>
+
+                    <div class="quote-content">
+                        <p>
+                            There is need of coming close to the people by personal effort. If less time were given to sermonizing, and more time were spent in personal ministry, greater results would be seen. The poor are to be relieved, the sick cared for, the sorrowing and the bereaved comforted, the ignorant instructed, the inexperienced counseled. We are to weep with those that weep, and rejoice with those that rejoice. Accompanied by the power of persuasion, the power of prayer, the power of the love of God, this work will not, cannot, be without fruit.
+                        </p>
+
+                        <em>The Ministry of Healing, pp. 143–144</em>
+                    </div>
+                </details>
+
+
+                <details>
+                    <summary>
+                        <span>A Work That Requires Self Sacrifice</span>
+                        <span class="accordion-icon">+</span>
+                    </summary>
+
+                    <div class="quote-content">
+                        <p>
+                            This work requires self sacrifice. While many are waiting to have every obstacle removed, the work they might do is left undone, and multitudes are dying without hope and without God. Some for the sake of commercial advantage, or to acquire scientific knowledge, will venture into unsettled regions and cheerfully endure sacrifice and hardship; but how few for the sake of their fellow men are willing to move their families into regions that are in need of the gospel.
+                        </p>
+
+                        <em>The Ministry of Healing, p. 156</em>
+                    </div>
+                </details>
+
+
+                <details>
+                    <summary>
+                        <span>Reach the People Wherever They Are</span>
+                        <span class="accordion-icon">+</span>
+                    </summary>
+
+                    <div class="quote-content">
+                        <p>
+                            To reach the people, wherever they are, and whatever their position or condition, and to help them in every way possible this is true ministry. By such effort you may win hearts and open a door of access to perishing souls.
+                        </p>
+
+                        <em>The Ministry of Healing, p. 156</em>
+                    </div>
+                </details>
+
+
+                <details>
+                    <summary>
+                        <span>Personal Labor</span>
+                        <span class="accordion-icon">+</span>
+                    </summary>
+
+                    <div class="quote-content">
+                        <p>
+                            The Lord desires that His word of grace shall be brought home to every soul. To a great degree this must be accomplished by personal labor. This was Christ’s method.
+                        </p>
+
+                        <em>Christ’s Object Lessons, p. 229</em>
+                    </div>
+                </details>
+
+
+                <details>
+                    <summary>
+                        <span>Coming Close to Those We Desire to Reach</span>
+                        <span class="accordion-icon">+</span>
+                    </summary>
+
+                    <div class="quote-content">
+                        <p>
+                            Those who have been most successful in soul winning were men and women who did not pride themselves on their ability, but who in humility and faith sought to help those about them. Jesus did this very work. He came close to those whom He desired to reach.
+                        </p>
+
+                        <em>Gospel Workers, p. 194</em>
+                    </div>
+                </details>
+
+
+                <details>
+                    <summary>
+                        <span>Personal Contact and Association</span>
+                        <span class="accordion-icon">+</span>
+                    </summary>
+
+                    <div class="quote-content">
+                        <p>
+                            Salt must be mingled with the substance to which it is added; it must penetrate and infuse in order to preserve. So it is through personal contact and association that men are reached by the saving power of the gospel. They are not saved in masses, but as individuals. Personal influence is a power. We must come close to those whom we desire to benefit.
+                        </p>
+
+                        <em>Thoughts From the Mount of Blessing, p. 36</em>
+                    </div>
+                </details>
+
+
+                <details>
+                    <summary>
+                        <span>Jesus Went Where the People Were</span>
+                        <span class="accordion-icon">+</span>
+                    </summary>
+
+                    <div class="quote-content">
+                        <p>
+                            Jesus saw in every soul one to whom must be given the call to His kingdom. He reached the hearts of the people by going among them as one who desired their good. He sought them in the public streets, in private houses, on the boats, in the synagogue, by the shores of the lake, and at the marriage feast. He met them at their daily vocations, and manifested an interest in their secular affairs. He carried His instruction into the household, bringing families in their own homes under the influence of His divine presence. His strong personal sympathy helped to win hearts.
+                        </p>
+
+                        <em>The Desire of Ages, p. 151</em>
+                    </div>
+                </details>
+
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
 <!-- =========================
      CONTRIBUTION NEEDS
 ========================= -->
